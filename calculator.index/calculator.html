@@ -1,45 +1,12 @@
-<!Doctype>
-<html>
-    <head>
-        <script>
-            //function to display value
-            function dis(val)
-            {
-                document.getElementById("result").value+=val
-            }
-
-            //function that evaluates the digital and return result
-            function solve()
-            {
-                let x = document.getElementById("result").value
-                let y = eval(x)
-                document.getElementById("result").value = y
-            }
-
-            //function that clear the display
-            function clr()
-            {
-                document.getElementById("result").value = ""
-            }
-        </script>
-    <!-----------------------------------style------------------------------->
-        <style>
-            .title{
-                margin-bottom: 10px;
-                text-align: center;
-                width: 210px;
-                color: black;
-                border: solid black 2px;
-            }
-            input[type="button"]{
-             background-color: teal; 
-             color: black; 
-             border: solid black 2px;
-             width: 150px;
-             height: 40px;
-            }
-        </style>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator </title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+</head>
     <!------------Create table------------>
     <body>
         <div class = title>Just a Simple calculator</div>
